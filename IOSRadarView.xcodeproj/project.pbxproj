@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA9618781BF68340B108CCD1 /* Pods_IOSRadarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35CE64BD9E0AB4E6A8CC778 /* Pods_IOSRadarView.framework */; };
 		E375AFA6205A88C900FDB346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375AFA5205A88C900FDB346 /* AppDelegate.swift */; };
 		E375AFA8205A88C900FDB346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375AFA7205A88C900FDB346 /* ViewController.swift */; };
 		E375AFAB205A88C900FDB346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E375AFA9205A88C900FDB346 /* Main.storyboard */; };
 		E375AFAD205A88C900FDB346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E375AFAC205A88C900FDB346 /* Assets.xcassets */; };
 		E375AFB0205A88C900FDB346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E375AFAE205A88C900FDB346 /* LaunchScreen.storyboard */; };
+		E385C417205A89D300CEC6CE /* RadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C416205A89D300CEC6CE /* RadarViewController.swift */; };
+		E385C419205A8B0400CEC6CE /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C418205A8B0400CEC6CE /* RadarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		113AD533D4D96AB672BC8D51 /* Pods-IOSRadarView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSRadarView.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSRadarView/Pods-IOSRadarView.release.xcconfig"; sourceTree = "<group>"; };
+		B35CE64BD9E0AB4E6A8CC778 /* Pods_IOSRadarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSRadarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E375AFA2205A88C900FDB346 /* IOSRadarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSRadarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E375AFA5205A88C900FDB346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E375AFA7205A88C900FDB346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		E375AFAC205A88C900FDB346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E375AFAF205A88C900FDB346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E375AFB1205A88C900FDB346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E385C416205A89D300CEC6CE /* RadarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarViewController.swift; sourceTree = "<group>"; };
+		E385C418205A8B0400CEC6CE /* RadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
+		E57B17B43537626A614D44D8 /* Pods-IOSRadarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSRadarView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSRadarView/Pods-IOSRadarView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9618781BF68340B108CCD1 /* Pods_IOSRadarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B90D2E0B50CD08672D5CB56A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E57B17B43537626A614D44D8 /* Pods-IOSRadarView.debug.xcconfig */,
+				113AD533D4D96AB672BC8D51 /* Pods-IOSRadarView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5DC48C6F30E633E958E1185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B35CE64BD9E0AB4E6A8CC778 /* Pods_IOSRadarView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E375AF99205A88C900FDB346 = {
 			isa = PBXGroup;
 			children = (
 				E375AFA4205A88C900FDB346 /* IOSRadarView */,
 				E375AFA3205A88C900FDB346 /* Products */,
+				B90D2E0B50CD08672D5CB56A /* Pods */,
+				C5DC48C6F30E633E958E1185 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +88,8 @@
 				E375AFAC205A88C900FDB346 /* Assets.xcassets */,
 				E375AFAE205A88C900FDB346 /* LaunchScreen.storyboard */,
 				E375AFB1205A88C900FDB346 /* Info.plist */,
+				E385C416205A89D300CEC6CE /* RadarViewController.swift */,
+				E385C418205A8B0400CEC6CE /* RadarView.swift */,
 			);
 			path = IOSRadarView;
 			sourceTree = "<group>";
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E375AFB4205A88C900FDB346 /* Build configuration list for PBXNativeTarget "IOSRadarView" */;
 			buildPhases = (
+				7FC7212CBC84805967538683 /* [CP] Check Pods Manifest.lock */,
 				E375AF9E205A88C900FDB346 /* Sources */,
 				E375AF9F205A88C900FDB346 /* Frameworks */,
 				E375AFA0205A88C900FDB346 /* Resources */,
+				92E579E7454ABB37BA90728C /* [CP] Embed Pods Frameworks */,
+				73F23E8EA97C278E90C0B162 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +164,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73F23E8EA97C278E90C0B162 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSRadarView/Pods-IOSRadarView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC7212CBC84805967538683 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSRadarView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E579E7454ABB37BA90728C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOSRadarView/Pods-IOSRadarView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSRadarView/Pods-IOSRadarView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E375AF9E205A88C900FDB346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +225,8 @@
 			files = (
 				E375AFA8205A88C900FDB346 /* ViewController.swift in Sources */,
 				E375AFA6205A88C900FDB346 /* AppDelegate.swift in Sources */,
+				E385C417205A89D300CEC6CE /* RadarViewController.swift in Sources */,
+				E385C419205A8B0400CEC6CE /* RadarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +361,7 @@
 		};
 		E375AFB5205A88C900FDB346 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57B17B43537626A614D44D8 /* Pods-IOSRadarView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +377,7 @@
 		};
 		E375AFB6205A88C900FDB346 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113AD533D4D96AB672BC8D51 /* Pods-IOSRadarView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
