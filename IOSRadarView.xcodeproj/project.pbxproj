@@ -13,6 +13,7 @@
 		E375AFAB205A88C900FDB346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E375AFA9205A88C900FDB346 /* Main.storyboard */; };
 		E375AFAD205A88C900FDB346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E375AFAC205A88C900FDB346 /* Assets.xcassets */; };
 		E375AFB0205A88C900FDB346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E375AFAE205A88C900FDB346 /* LaunchScreen.storyboard */; };
+		E384E560205B9662008A6582 /* RadarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E55F205B9662008A6582 /* RadarModel.swift */; };
 		E385C417205A89D300CEC6CE /* RadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C416205A89D300CEC6CE /* RadarViewController.swift */; };
 		E385C419205A8B0400CEC6CE /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C418205A8B0400CEC6CE /* RadarView.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 		E375AFAC205A88C900FDB346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E375AFAF205A88C900FDB346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E375AFB1205A88C900FDB346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E384E55F205B9662008A6582 /* RadarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarModel.swift; sourceTree = "<group>"; };
 		E385C416205A89D300CEC6CE /* RadarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarViewController.swift; sourceTree = "<group>"; };
 		E385C418205A8B0400CEC6CE /* RadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
 		E57B17B43537626A614D44D8 /* Pods-IOSRadarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSRadarView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSRadarView/Pods-IOSRadarView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				E375AFB1205A88C900FDB346 /* Info.plist */,
 				E385C416205A89D300CEC6CE /* RadarViewController.swift */,
 				E385C418205A8B0400CEC6CE /* RadarView.swift */,
+				E384E55F205B9662008A6582 /* RadarModel.swift */,
 			);
 			path = IOSRadarView;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E384E560205B9662008A6582 /* RadarModel.swift in Sources */,
 				E375AFA8205A88C900FDB346 /* ViewController.swift in Sources */,
 				E375AFA6205A88C900FDB346 /* AppDelegate.swift in Sources */,
 				E385C417205A89D300CEC6CE /* RadarViewController.swift in Sources */,
