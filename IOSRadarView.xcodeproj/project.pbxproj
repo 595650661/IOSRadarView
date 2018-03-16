@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BA9618781BF68340B108CCD1 /* Pods_IOSRadarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35CE64BD9E0AB4E6A8CC778 /* Pods_IOSRadarView.framework */; };
-		E375AFA6205A88C900FDB346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375AFA5205A88C900FDB346 /* AppDelegate.swift */; };
-		E375AFA8205A88C900FDB346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375AFA7205A88C900FDB346 /* ViewController.swift */; };
-		E375AFAB205A88C900FDB346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E375AFA9205A88C900FDB346 /* Main.storyboard */; };
-		E375AFAD205A88C900FDB346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E375AFAC205A88C900FDB346 /* Assets.xcassets */; };
-		E375AFB0205A88C900FDB346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E375AFAE205A88C900FDB346 /* LaunchScreen.storyboard */; };
 		E384E560205B9662008A6582 /* RadarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E55F205B9662008A6582 /* RadarModel.swift */; };
+		E384E563205BBAB2008A6582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E562205BBAB2008A6582 /* AppDelegate.swift */; };
+		E384E565205BBABD008A6582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E384E564205BBABD008A6582 /* Assets.xcassets */; };
+		E384E567205BBAC3008A6582 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E384E566205BBAC3008A6582 /* Info.plist */; };
+		E384E569205BBACC008A6582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384E568205BBACC008A6582 /* ViewController.swift */; };
+		E384E56E205BBADD008A6582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E384E56A205BBADC008A6582 /* LaunchScreen.storyboard */; };
+		E384E56F205BBADD008A6582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E384E56C205BBADC008A6582 /* Main.storyboard */; };
 		E385C417205A89D300CEC6CE /* RadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C416205A89D300CEC6CE /* RadarViewController.swift */; };
 		E385C419205A8B0400CEC6CE /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385C418205A8B0400CEC6CE /* RadarView.swift */; };
 /* End PBXBuildFile section */
@@ -22,13 +23,13 @@
 		113AD533D4D96AB672BC8D51 /* Pods-IOSRadarView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSRadarView.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSRadarView/Pods-IOSRadarView.release.xcconfig"; sourceTree = "<group>"; };
 		B35CE64BD9E0AB4E6A8CC778 /* Pods_IOSRadarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSRadarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E375AFA2205A88C900FDB346 /* IOSRadarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSRadarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E375AFA5205A88C900FDB346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E375AFA7205A88C900FDB346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E375AFAA205A88C900FDB346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E375AFAC205A88C900FDB346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E375AFAF205A88C900FDB346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E375AFB1205A88C900FDB346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E384E55F205B9662008A6582 /* RadarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarModel.swift; sourceTree = "<group>"; };
+		E384E562205BBAB2008A6582 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = IOSRadarView/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		E384E564205BBABD008A6582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = IOSRadarView/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		E384E566205BBAC3008A6582 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = IOSRadarView/Info.plist; sourceTree = SOURCE_ROOT; };
+		E384E568205BBACC008A6582 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = IOSRadarView/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		E384E56B205BBADC008A6582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IOSRadarView/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		E384E56D205BBADC008A6582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IOSRadarView/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		E385C416205A89D300CEC6CE /* RadarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarViewController.swift; sourceTree = "<group>"; };
 		E385C418205A8B0400CEC6CE /* RadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
 		E57B17B43537626A614D44D8 /* Pods-IOSRadarView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSRadarView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSRadarView/Pods-IOSRadarView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,17 +85,25 @@
 		E375AFA4205A88C900FDB346 /* IOSRadarView */ = {
 			isa = PBXGroup;
 			children = (
-				E375AFA5205A88C900FDB346 /* AppDelegate.swift */,
-				E375AFA7205A88C900FDB346 /* ViewController.swift */,
-				E375AFA9205A88C900FDB346 /* Main.storyboard */,
-				E375AFAC205A88C900FDB346 /* Assets.xcassets */,
-				E375AFAE205A88C900FDB346 /* LaunchScreen.storyboard */,
-				E375AFB1205A88C900FDB346 /* Info.plist */,
+				E384E561205BBA98008A6582 /* App */,
 				E385C416205A89D300CEC6CE /* RadarViewController.swift */,
 				E385C418205A8B0400CEC6CE /* RadarView.swift */,
 				E384E55F205B9662008A6582 /* RadarModel.swift */,
 			);
 			path = IOSRadarView;
+			sourceTree = "<group>";
+		};
+		E384E561205BBA98008A6582 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E384E562205BBAB2008A6582 /* AppDelegate.swift */,
+				E384E564205BBABD008A6582 /* Assets.xcassets */,
+				E384E566205BBAC3008A6582 /* Info.plist */,
+				E384E568205BBACC008A6582 /* ViewController.swift */,
+				E384E56A205BBADC008A6582 /* LaunchScreen.storyboard */,
+				E384E56C205BBADC008A6582 /* Main.storyboard */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E375AFB0205A88C900FDB346 /* LaunchScreen.storyboard in Resources */,
-				E375AFAD205A88C900FDB346 /* Assets.xcassets in Resources */,
-				E375AFAB205A88C900FDB346 /* Main.storyboard in Resources */,
+				E384E56E205BBADD008A6582 /* LaunchScreen.storyboard in Resources */,
+				E384E567205BBAC3008A6582 /* Info.plist in Resources */,
+				E384E565205BBABD008A6582 /* Assets.xcassets in Resources */,
+				E384E56F205BBADD008A6582 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E384E569205BBACC008A6582 /* ViewController.swift in Sources */,
+				E384E563205BBAB2008A6582 /* AppDelegate.swift in Sources */,
 				E384E560205B9662008A6582 /* RadarModel.swift in Sources */,
-				E375AFA8205A88C900FDB346 /* ViewController.swift in Sources */,
-				E375AFA6205A88C900FDB346 /* AppDelegate.swift in Sources */,
 				E385C417205A89D300CEC6CE /* RadarViewController.swift in Sources */,
 				E385C419205A8B0400CEC6CE /* RadarView.swift in Sources */,
 			);
@@ -237,20 +247,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E375AFA9205A88C900FDB346 /* Main.storyboard */ = {
+		E384E56A205BBADC008A6582 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E375AFAA205A88C900FDB346 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E375AFAE205A88C900FDB346 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E375AFAF205A88C900FDB346 /* Base */,
+				E384E56B205BBADC008A6582 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E384E56C205BBADC008A6582 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E384E56D205BBADC008A6582 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -369,7 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7NX95T8E47;
+				DEVELOPMENT_TEAM = RXT37DSYQJ;
 				INFOPLIST_FILE = IOSRadarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coolspan.IOSRadarView;
@@ -385,7 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7NX95T8E47;
+				DEVELOPMENT_TEAM = RXT37DSYQJ;
 				INFOPLIST_FILE = IOSRadarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coolspan.IOSRadarView;

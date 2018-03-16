@@ -22,16 +22,23 @@ class RadarViewController: UIViewController {
     
 }
 
-extension RadarViewController {
+// MARK: - private methods
+private extension RadarViewController {
     
     func initSubviews() {
         print("initSubviews")
         
         radarView = RadarView(frame: CGRect(x: (UIScreen.main.bounds.width
             - 350) / 2, y: 50, width: 350, height: 350))
-//        radarView.backgroundColor = UIColor.green
+        radarView.setLineColor(color: UIColor.init(red: 136 / 255, green: 136 / 255, blue: 136 / 255, alpha: 1))
+        radarView.setTextColor(color: UIColor.init(red: 128 / 255, green: 128 / 255, blue: 128 / 255, alpha: 1))
+        radarView.setDrawAreaColor(color: UIColor.init(red: 121 / 255, green: 212 / 255, blue: 253 / 255, alpha: 0.6))
+        radarView.setLineWidth(width: 0.5)
+        radarView.setDotRadius(radius: 3)
+        radarView.setDotColor(color: UIColor.init(red: 121 / 255, green: 212 / 255, blue: 253 / 255, alpha: 1))
         radarView.setData(data: [RadarModel(title: "语文", percent: 0.9), RadarModel(title: "数学", percent: 0.2), RadarModel(title: "英语", percent: 0.9), RadarModel(title: "物理", percent: 0.2), RadarModel(title: "化学", percent: 0.9), RadarModel(title: "生物", percent: 0.2)])
         view.addSubview(radarView)
+        
         let fiveButton = UIButton()
         fiveButton.layer.cornerRadius = 8
         fiveButton.backgroundColor = UIColor.red
